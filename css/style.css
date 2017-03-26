@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	tap-highlight-color: transparent;
+	display: -webkit-flex;
+	display: flex;
+}
+
+html, body{
+	height: 100%;
+}
+
+.slide{
+	position: relative;
+	overflow: hidden;
+	width: 1024px;
+	height: 768px;
+	background: lightgrey;
+	box-sizing: border-box;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+img{
+	-webkit-user-drag: none;
+	-moz-user-drag: none;
+	user-drag: none;
+}
+
+header{
+	height: 80px;
+	background-color: white;
+	opacity: 0.8;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+h1{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.canvas-wrapper{
+	height: 688px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.dino-canvas{
+	margin: auto;
+}
